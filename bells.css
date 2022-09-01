@@ -1,0 +1,1533 @@
+/*Home*/
+body .home{
+    background-color: white;
+    margin: 0 auto;
+    width: auto;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    padding: 0px;
+}
+.header{
+    background-color: black;
+    height: auto;
+}
+.navbar1{
+    display: flex;
+}
+.logo{
+    margin: 15px;
+}
+.logotext{
+    margin: 0px;
+    width: 1200px;
+}
+.contactlogo{
+    margin: 25px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.logotext a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color: orange;
+}
+.logotext a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.contactlogo a{
+    text-decoration: none;
+    font-family: sans-serif;
+    color:white;
+}
+.contactlogo a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.navbar >.firstul{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+.navbar >.firstul >li{
+    display: inline-block;
+}
+.navbar >.firstul >li >a{
+    color: white;
+    text-decoration: none;
+    display: block;padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.navbar >.firstul >li >a:hover{
+    text-decoration: underline;
+    color: teal;
+}
+.drop{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: none;
+}
+.drop >li >a{
+    color: teal;
+    text-decoration: none;
+    display: block;
+    font-family: sans-serif;
+    font-size: small;
+    padding: 10px;
+    background-color: pink;
+}
+.drop >li >a:hover{
+    text-decoration: underline;
+    color: teal;
+}
+.navbar >.firstul >li:hover .drop{
+    display: block; 
+}
+.content{
+    background-color: white;
+    height: 500px;
+    margin: 0px;
+    border: 3px solid orange;
+    box-shadow: 2px 2px 12px;color: black;
+}
+.head{
+    color: black;
+    font-size: xx-large;
+    font-family: sans-serif;
+    margin: 0px;
+    padding:0px;
+    
+}
+p{
+    font-family: sans-serif;
+    font-size: large;
+    color: black;
+    padding: 0px;
+    margin: 0px;
+}
+.content >.vc{
+    float: right ;
+    margin: 0px;
+    padding: 0px;
+}
+.clearfix{
+    clear: both;
+}
+.officials{
+    width: 1200px;
+    background-color: white;
+    height: auto;
+    margin: auto;
+}
+.nof{
+    float: left;
+    width: 300px;
+}
+.iframe{
+    background-color: white;
+    height: auto;
+    width: 1000px;
+    margin: 100px;
+    padding: 10px;
+    font-family: sans-serif;
+    border: 3px solid orange;
+    box-shadow: 2px 2px 12px;color: black;
+}
+.map{
+    text-align: center;
+}
+.main-footer{
+    width: 1200px;
+    height: 300px;
+}
+.footer-box{
+    float: left;
+    width: 300px;
+    background-color: black;
+    height: 300px;
+    color: white;
+    font-family: sans-serif;
+}
+.footer-box > ul{
+    list-style: none;
+    padding: 0px;
+    margin: 5px;
+}
+.footer-box > ul >li{
+    margin-bottom: 5px;
+    display: block;
+}
+.footer-box > ul >li >a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
+.footer-box > ul >li >a:hover{
+    text-decoration: underline;
+    color: teal;
+}
+.footer-box >p{
+    font-family: sans-serif;
+    color: white;
+    margin: 5px;
+    font-size: small;
+}
+.footer-box >p >a{
+    text-decoration: none;
+    color: teal;
+}
+.footer-box >p >a:hover{
+    text-decoration: underline;
+    color: teal;
+}
+
+/*COLMANS*/
+body .colmans{
+    background-color: white;
+    margin: 0 auto;
+    width: auto; 
+}
+.section2{
+    background-color: white;
+    height: 804px;
+}
+.banner{
+    width: 900px;
+    background-color: white;
+    float: right;
+    padding: 0px;
+    height: 804px;
+}
+.depbanner{
+    height: 804px;
+    width: 900px;
+}
+.sidebar{
+    width: 300px;
+    float: right;
+    padding: 0px;
+    background-color: white;
+}
+.colmansheader{
+    background-color: gainsboro;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    border: 3px solid orange;
+    box-shadow: 2px 2px 12px;color: black;
+}
+.seection2 h2, h3{
+    font-family: sans-serif;
+}
+.section2 p{
+    box-shadow: 1px 1px 12px;color: black;
+    margin: 5px;
+    padding: 5px;
+}
+.mainhod{
+    width: 1200px;
+    background-color: white;
+    height: 760px;
+    border: 3px solid orange;
+    box-shadow: 2px 2px 12px;color: black;
+}
+.hod{
+    float: left;
+    width: 400px;
+    height: 766px;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+.hod a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.hod a:hover{
+    text-decoration: underline;
+    background-color: white;    
+}
+.hodul{
+    border: 3px solid orange;
+    box-shadow: 2px 2px 12px;color: black;
+}
+/*COLNAS*/
+.nasmeg{
+    font-family: sans-serif;
+    font-size: large;
+    padding: 0px;
+}
+.colnashod{
+    width: 1200px;
+    background-color: white;
+    height: auto;
+    border: 3px solid orange;
+    box-shadow: 2px 2px 12px;color: black;
+}
+.lod{
+    width: 400px;
+    margin: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+.lod a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.lod a:hover{
+    text-decoration: underline;
+    background-color: white;  
+}   
+/*COLENG*/
+.lenghod{
+    width: 1200px;
+    background-color: white;
+    height: auto;
+    border: 3px solid orange;
+    box-shadow: 2px 2px 12px;color: black;
+}
+.leng{
+    width: 400px;
+    float: left;
+    font-family: sans-serif;
+}
+.leng a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+}
+.leng a:hover{
+    text-decoration: underline;
+    background-color: white;  
+}
+/*CAMPUST*/
+.campslidewhole{
+    width: 1200px;
+}
+.campslider{
+    overflow: hidden;
+}
+.campslide{
+    float: left;
+}
+.campslide h3{
+    font-family: sans-serif;
+    color: blue;
+}
+.campslider >.campslide{
+    position: relative;
+    width: 400%;
+    margin: 0px;
+    left: 0px;
+    animation: 20s campslider infinite;
+}
+.campslider >.campslide img{
+    float: left;
+    width: 25%;
+}
+@keyframes campslider{
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+}
+.campcate{
+    width: 1200px;
+    background-color: white;
+    height: auto;
+}
+.cate{
+    width: 400px;
+    float: left;
+    font-family: sans-serif;
+}
+.campcate h1{
+    color: orange;
+}
+
+.iframe{
+    width: 1175px;
+    margin: 0px;
+    justify-content: center;
+}
+.map2{
+    width: 900px;
+}
+/*WHYBELLS*/
+.whybells{
+    height: 1335px;
+}
+.insidecontent{
+    width: 850px;
+    background-color: white;
+    float: left;
+    height: auto;
+
+}
+.insidecontent h3{
+    font-family: sans-serif;
+    margin: 15px;
+    padding: 0px;
+    font-size: large;
+    margin-bottom: 0px;
+}
+.insidecontent p{
+    margin: 15px;
+    font-size: medium;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.whyimg{
+    height: auto;
+}
+.whyimg img{ 
+    border: 3px solid gainsboro;
+    box-shadow: 2px 2px 12px;color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.whykingimg{
+    width: 1200px;
+}
+.whyotherimg{
+    width: 380px;
+    float: left;
+    border: 3px solid gainsboro;
+    box-shadow: 2px 2px 12px;color: black;
+    margin: 5px;
+    padding: 0px;
+}
+/*NEWS*/
+.insidecontent a{
+    text-decoration: none;
+    background: black;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+}
+.newlain{
+    width: 850px;
+}
+.insidecontent a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.newsimg{
+    height: 3730px;
+}
+.newsimg img{
+    border: 3px solid gainsboro;
+    box-shadow: 2px 2px 12px;color: black;
+    padding: 10px;
+    margin: 10px;
+}
+.nextlink >a{
+    text-decoration: none;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+.nextlink a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+/*ABOUT*/
+.wholeabout{
+    height: 1280px;
+}
+.innerabout{
+    float: left;
+    width: 850px;
+}
+.aboutus h1{
+    margin-bottom: 0px;
+    font-family: sans-serif;
+}
+.aboutus p{
+    margin-top: 0px;    
+    font-family: sans-serif;
+    font-size: large;
+}
+.aboutus li{
+    width: 800px;
+    font-size: large;
+    font-family: sans-serif ;
+}
+.aboutimg{
+    margin: 20px;
+    padding: 20px;
+}
+.eafnbadvisors{
+    width: 1200px;
+    height: auto;
+}
+.eafadvi{
+    width: 300px;
+    float: left;
+}
+.eafnbadvisors h1{
+    font-family: sans-serif;
+    color: teal;
+}
+.eafadvi h3, h4{
+    font-family: sans-serif;
+}
+/*NEWSCONT*/
+.wholenewscont{
+    width: 1200px;
+}
+.newscont{
+    width: 900px;
+}
+.newscont p{
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.newslidewhole{
+    width: 900px;
+}
+/*MEDIA QUERY*/
+/*COLMANS*/
+@media screen and (max-width: 320px)
+{
+    .container{
+        width: 320px;
+    }
+    .logotext{
+        width: 320px;
+}
+.contactlogo{
+    display: none;
+}
+    .firstul{
+        width: 300px;
+    }
+    .colmansheader{
+        width: 320px;
+    }
+    .banner{
+        display: none;
+        height: 600px;
+    }
+    .section2{
+        height: 780px;
+    }
+    .mainhod{
+        width: 320px;
+        height: 2300px;
+    }
+    .hod{
+        width: 320px;
+    }
+    .main-footer{
+        width: 320px;
+    }
+    .footer-box{
+        width: 300px;
+    }
+
+    /*COLNAS*/
+    .colnashod{
+        width: 300px;
+    }
+    .mainhod{
+        width: 300px;
+    }
+    .hod{
+        width: 300px;
+    }
+    .colnashod{
+        height: 3000px;
+    }
+    .main-footer{
+        width: 320px;
+    }
+    .footer-box{
+        width: 320px;
+    }
+    .lenghod{
+        width: 300px;
+    }
+    .leng{
+        width: 300px;
+    }
+
+
+    /*DEPARTMENTS*/
+    .eafnbadvisors{
+        width: 300px;
+    }
+    .eafadvi{
+        width: 300px;
+    }
+
+    /*CAMPUSTOUR*/
+    .campslidewhole{
+        width: 300px;
+    }
+    .campcate{
+        width: 300px;
+    }
+    .cate h1,h2,h3{
+        width: 280px;
+    }
+    .iframe{
+        width: 280px;
+    }
+    .map2{
+        width: 280px;
+    }
+
+    /*WHYBELLS*/
+    .insidecontent{
+        width: 300px;
+    }
+    .insidecontent h3{
+        width: 300px;
+        overflow: hidden;
+    }
+    .insidecontent p{
+        width: 300px;
+    }
+    .iframewhy{
+        width: 300px;
+    }
+    .whyimg{
+        display: none;
+    }
+    .whykingimg{
+        width: 300px;
+    }
+    .whyotherimg{
+        width: 300px;
+    }
+    /*NEWS*/
+    .insidecontent{
+        width: 300px;
+    }
+    .newlain{
+        width: 300px;
+    }
+    .newpara{
+        width: 300px;   
+    }
+    .newsimg{
+        height: 4850px;
+    }
+    .newsimg h3{
+        margin-top: 0px;
+        padding: 5px; 
+    }
+    .newsimg h2{
+        margin-bottom: 0px;
+    }
+
+    /*ABOUT US*/
+    .aboutus p{
+        width: 300px;
+    }
+    .aboutus >.ph{
+        width: 300px;
+    }
+    .chordimg{
+        width: 300px;   
+    }
+    .aboutimg{
+        display: none;
+    }
+    /*HOME*/
+    .content{
+        height: 630px;    
+    }
+    .officials{
+        width: 300px;
+    }
+    .nof{
+        width: 300px;
+    }
+}
+
+/*MOBILE DEVICE*/
+@media (min-width: 351px) and (max-width: 480px)
+{
+    .container{
+        width: 480px;
+    }
+    .logotext{
+        width: 480px;
+}
+.contactlogo{
+    display: none;
+}
+    .firstul{
+        width: 480px;
+    }
+    .colmansheader{
+        width: 480px;
+    }
+    .banner{
+        display: none;
+    }
+    .section2{
+        height: 750px;
+    }
+    .mainhod{
+        width: 480px;
+        height: 2300px;
+    }
+    .hod{
+        width: 480px;
+    }
+    .main-footer{
+        width: 480px;
+    }
+    .footer-box{
+        width: 480px;
+    }
+
+    /*COLNAS*/
+    .colnashod{
+        width: 480px;
+    }
+    .hod{
+        width: 480px;
+    }
+
+    /*COLENG*/
+    .lenghod{
+        display: inline;
+    }
+
+    /*DEPARTMENTS*/
+    .eafnbadvisors{
+        width: 480px;
+    }
+    .eafadvi{
+        width: 480px;
+    }
+
+    /*CAMPUSTOUR*/
+    .campslidewhole{
+        width: 480px;
+    }
+    .campslide{
+        height: 1750px;
+    }
+    .campcate{
+        width: 480px;
+    }
+    .cate h1,h2,h3{
+        width: 480px;
+    }
+    .iframe{
+        width: 480px;
+    }
+    .map2{
+        width: 480px;
+    }
+
+    /*WHYBELLS*/
+    .insidecontent{
+        width: 480px;
+    }
+    .insidecontent h3{
+        width: 480px;
+        overflow: hidden;
+    }
+    .insidecontent p{
+        width: 480px;
+    }
+    .iframewhy{
+        width: 480px;
+    }
+    .whyimg{
+        display: none;
+    }
+    .whykingimg{
+        width: 480px;
+    }
+    .whyotherimg{
+        width: 480px;
+    }
+    /*NEWS*/
+    .insidecontent{
+        width: 480px;
+    }
+    .newlain{
+        width: 480px;
+    }
+    .newpara{
+        width: 480px;   
+    }
+    .newsimg{
+        height: 5250px;
+    }
+    .newsimg h3{
+        margin-top: 0px;
+        padding: 5px; 
+    }
+    .newsimg h2{
+        margin-bottom: 0px;
+    }
+
+    /*ABOUT US*/
+    .innerabout{
+        width: 480px;
+    }
+    .aboutus{
+        width: 480px;
+    }
+    .aboutus >.ph{
+        width: 480px;
+    }
+    .chordimg{
+        width: 480px;   
+    }
+    .aboutimg{
+        display: none;
+    }
+    /*HOME*/
+    .content{
+        height: 630px;    
+    }
+    .officials{
+        width: 480px;
+    }
+    .nof{
+        width: 480px;
+    }
+    .bannerswipe{
+        height: 350px;
+    }
+    .iframe{
+        width: 480px;
+    }
+    .map2{
+        width: 480px;
+    }
+}
+
+@media (min-width: 485px) and (max-width: 578px)
+{
+    .container{
+        width: 578px;
+    }
+    .logotext{
+        width: 578px;
+}
+.contactlogo{
+    display: none;
+}
+    .firstul{
+        width: 578px;
+    }
+    .colmansheader{
+        width: 578px;
+    }
+    .banner{
+        display: none;
+    }
+    .section2{
+        height: 550px;
+    }
+    .mainhod{
+        width: 578px;
+        height: 2300px;
+    }
+    .hod{
+        width: 578px;
+    }
+    .main-footer{
+        width: 578px;
+    }
+    .footer-box{
+        width: 578px;
+    }
+
+    /*COLNAS*/
+    .colnashod{
+        width: 578px;
+    }
+    .hod{
+        width: 578px;
+    }
+
+    /*COLENG*/
+    .lenghod{
+        width: 578px;
+    }
+    .leng{
+        width: 578px;
+    }
+
+
+    /*DEPARTMENTS*/
+    .eafnbadvisors{
+        width: 578px;
+    }
+    .eafadvi{
+        width: 578px;
+    }
+
+    /*CAMPUSTOUR*/
+    .campslidewhole{
+        width: 578px;
+    }
+    .campslide{
+        height: 1750px;
+    }
+    .campcate{
+        width: 578px;
+        height: 6650px;
+    }
+    .cate h1,h2,h3{
+        width: 578px;
+    }
+    .iframe{
+        width: 578px;
+    }
+    .map2{
+        width: 570px;
+    }
+
+    /*WHYBELLS*/
+    .insidecontent{
+        width: 578px;
+    }
+    .insidecontent h3{
+        width: 578px;
+        overflow: hidden;
+    }
+    .insidecontent p{
+        width: 578px;
+    }
+    .iframewhy{
+        width: 578px;
+    }
+    .whyimg{
+        display: none;
+    }
+    .whykingimg{
+        width: 578px;
+    }
+    .whyotherimg{
+        width: 578px;
+    }
+    /*NEWS*/
+    .insidecontent{
+        width: 578px;
+    }
+    .newlain{
+        width: 578px;
+    }
+    .newpara{
+        width: 578px;   
+    }
+    .newsimg{
+        height: 4850px;
+    }
+    .newsimg h3{
+        margin-top: 0px;
+        padding: 5px; 
+    }
+    .newsimg h2{
+        margin-bottom: 0px;
+    }
+
+    /*ABOUT US*/
+    .aboutus p{
+        width: 578px;
+    }
+    .aboutus >.ph{
+        width: 578px;
+    }
+    .chordimg{
+        width: 578px;   
+    }
+    .aboutimg{
+        display: none;
+    }
+    /*HOME*/
+    .content{
+        height: 630px;    
+    }
+    .officials{
+        width: 578px;
+    }
+    .nof{
+        width: 578px;
+    }
+    .bannerswipe{
+        height: 350px;
+    }
+    .iframe{
+        width: 578px;
+    }
+    .map2{
+        width: 570px;
+    }
+}
+
+@media (min-width: 580px) and (max-width: 800px)
+{
+    .container{
+        width: 800px;
+    }
+    .logotext{
+        width: 800px;
+}
+.contactlogo{
+    display: none;
+}
+    .firstul{
+        width: 800px;
+    }
+    .colmansheader{
+        width: 800px;
+    }
+    .banner{
+        display: none;
+    }
+    .section2{
+        height: 590px;
+    }
+    .mainhod{
+        width: 800px;
+        height: auto;
+    }
+    .hod{
+        width: 800px;
+    }
+    .main-footer{
+        width: 800px;
+    }
+    .footer-box{
+        width: 800px;
+    }
+
+    /*COLNAS*/
+    .colnashod{
+        width: 800px;
+    }
+    .hod{
+        width: 800px;
+    }
+
+    /*COLENG*/
+    .lenghod{
+        width: 800px;
+    }
+    .leng{
+        width: 400px;
+    }
+
+
+    /*DEPARTMENTS*/
+    .eafnbadvisors{
+        width: 800px;
+    }
+    .eafadvi{
+        width: 400px;
+    }
+
+    /*CAMPUSTOUR*/
+    .campslidewhole{
+        width: 800px;
+    }
+    .campslide{
+        height: 1750px;
+    }
+    .campcate{
+        width: 800px;
+        height: 1050px;
+    }
+    .cate{
+        width: 400px;
+    }
+    .cate h1,h2,h3{
+        width: 800px;
+    }
+    .iframe{
+        width: 800px;
+    }
+    .map2{
+        width: 700px;
+    }
+
+    /*WHYBELLS*/
+    .insidecontent{
+        width: 800px;
+    }
+    .insidecontent h3{
+        width: 800px;
+    }
+    .insidecontent p{
+        width: 800px;
+    }
+    .iframewhy{
+        width: 800px;
+    }
+    .whyimg{
+        display: none;
+    }
+    .whykingimg{
+        width: 800px;
+    }
+    .whyotherimg{
+        width: 400px;
+        float: left;
+    }
+    /*NEWS*/
+    .insidecontent{
+        width: 800px;
+    }
+    .newlain{
+        width: 800px;
+    }
+    .newpara{
+        width: 800px;   
+    }
+    .newsimg{
+        height: 4850px;
+        width: 800px;
+    }
+    .newsimgrole{
+        width: 400px;
+        float: left;
+    }
+    .newsimg h3{
+        margin-top: 0px;
+        padding: 5px; 
+    }
+    .newsimg h2{
+        margin-bottom: 0px;
+    }
+
+    /*ABOUT US*/
+    .aboutus p{
+        width: 800px;
+    }
+    .aboutus >.ph{
+        width: 800px;
+    }
+    .chordimg{
+        width: 800px;   
+    }
+    .aboutimg{
+        display: none;
+    }
+    /*HOME*/
+    .content{
+        height: 630px;    
+    }
+    .officials{
+        width: 800px;
+    }
+    .nof{
+        width: 400px;
+    }
+    .bannerswipe{
+        height: 600px;
+    }
+    .iframe{
+        width: 800px;
+    }
+    .map2{
+        width: 750px;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1024px)
+{
+    .container{
+        width: 1024px;
+    }
+    .logotext{
+        width: 1024px;
+}
+.contactlogo{
+    display: none;
+}
+    .firstul{
+        width: 1024px;
+    }
+    .colmansheader{
+        width: 1024px;
+    }
+    .banner{
+        display: none;
+    }
+    .section2{
+        height: 550px;
+    }
+    .mainhod{
+        width: 1024px;
+        height: auto;
+    }
+    .hod{
+        width:600px;
+    }
+    .main-footer{
+        width: 1024px;
+    }
+    .footer-box{
+        width: 512px;
+    }
+
+    /*COLNAS*/
+    .colnashod{
+        width: 1024px;
+    }
+    .hod{
+        width: 600px;
+    }
+
+    /*COLENG*/
+    .lenghod{
+        width: 1024px;
+    }
+    .leng{
+        width: 512px;
+    }
+
+
+    /*DEPARTMENTS*/
+    .eafnbadvisors{
+        width: 1024px;
+    }
+    .eafadvi{
+        width: 512px;
+    }
+
+    /*CAMPUSTOUR*/
+    .campslidewhole{
+        width: 1024px;
+    }
+    .campslide{
+        height: 1750px;
+    }
+    .campcate{
+        width: 1024px;
+        height: 1050px;
+    }
+    .cate{
+        width: 512px;
+    }
+    .cate h1,h2,h3{
+        width: 1024px;
+    }
+    .iframe{
+        width: 1024px;
+    }
+    .map2{
+        width: 950px;
+    }
+
+    /*WHYBELLS*/
+    .insidecontent{
+        width: 1024px;
+    }
+    .insidecontent h3{
+        width: 1024px;
+    }
+    .insidecontent p{
+        width: 1024px;
+    }
+    .iframewhy{
+        width: 1024px;
+    }
+    .whybells{
+        height: 1100px;
+    }
+    .whyimg{
+        display: none;
+    }
+    .whykingimg{
+        width: 1024px;
+    }
+    .whyotherimg{
+        width: 512px;
+        float: left;
+    }
+    /*NEWS*/
+    .insidecontent{
+        width: 1024px;
+    }
+    .newlain{
+        width: 1024px;
+    }
+    .newpara{
+        width: 1024px;   
+    }
+    .newsimg{
+        height: 4850px;
+        width: 1024px;
+    }
+    .newsimgrole{
+        width: 512px;
+        float: left;
+    }
+    .newsimg h3{
+        margin-top: 0px;
+        padding: 5px; 
+    }
+    .newsimg h2{
+        margin-bottom: 0px;
+    }
+
+    /*ABOUT US*/
+    .aboutus p{
+        width: 1024px;
+    }
+    .aboutus >.ph{
+        width: 1024px;
+    }
+    .chordimg{
+        width: 1024px;   
+    }
+    .aboutimg{
+        display: none;
+    }
+    /*HOME*/
+    .content{
+        height: 630px;    
+    }
+    .officials{
+        width: 1024px;
+    }
+    .nof{
+        width: 512px;
+    }
+    .bannerswipe{
+        height: 600px;
+    }
+    .iframe{
+        width: 1024px;
+    }
+    .map2{
+        width: 950px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px)
+{
+    .container{
+        width: 1280px;
+    }
+    .logotext{
+        width: 1280px;
+}
+.contactlogo{
+    display: none;
+}
+    .firstul{
+        width: 1280px;
+    }
+    .colmansheader{
+        width: 1280px;
+    }
+    .banner{
+        width: 900px;
+        background-color: white;
+        float: right;
+        padding: 0px;
+        height: 804px;
+    }
+    .depbanner{
+        height: 804px;
+        width: 900px;
+    }
+    .sidebar{
+        width: 380px;
+        float: right;
+        padding: 0px;
+        background-color: white;
+    }
+    .section2{
+        height: 804px;
+        width: 1280px;
+    }
+    .mainhod{
+        width: 1280px;
+        height: 1500px;
+    }
+    .hod{
+        width:640px;
+    }
+    .main-footer{
+        width: 1280px;
+    }
+    .footer-box{
+        width: 320px
+    }
+
+    /*COLNAS*/
+    .colnashod{
+        width: 1280px;
+    }
+    .hod{
+        width: 640px;
+    }
+    /*COLENG*/
+    .lenghod{
+        width: 1280px;
+    }
+    .leng{
+        width: 426px;
+    }
+
+
+    /*DEPARTMENTS*/
+    .eafnbadvisors{
+        width: 1280px;
+    }
+    .eafadvi{
+        width:620px;
+    }
+
+    /*CAMPUSTOUR*/
+    .campslidewhole{
+        width: 1280px;
+    }
+    .campslide{
+        height: 1750px;
+    }
+    .campcate{
+        width: 1280px;
+        height: 1050px;
+    }
+    .cate{
+        width: 420px;
+    }
+    .cate h1,h2,h3{
+        width: 912px;
+    }
+    .iframe{
+        width: 1280px;
+    }
+    .map2{
+        width: 1000px;
+    }
+
+    /*WHYBELLS*/
+    .insidecontent{
+        width: 912px;
+    }
+    .insidecontent h3{
+        width: 912px;
+    }
+    .insidecontent p{
+        width: 912px;
+    }
+    .iframewhy{
+        width: 950px;
+    }
+    .whybells{
+        height: 1100px;
+        width: 1024px;
+    }
+    .whykingimg{
+        width: 1280px;
+    }
+    .whyotherimg{
+        width: 426Px;
+        float: left;
+        box-shadow: none;
+    }
+    /*NEWS*/
+    .insidecontent{
+        width: 912px;
+    }
+    .newlain{
+        width: 1024px;
+    }
+    .newpara{
+        width: 1024Px;   
+    }
+    .newsimg{
+        height: 4850px;
+        width: 1280px;
+    }
+    .newsimgrole{
+        width: 426px;
+        float: left;
+    }
+    .newsimg h3{
+        margin-top: 0px;
+        padding: 5px; 
+    }
+    .newsimg h2{
+        margin-bottom: 0px;
+    }
+
+    /*ABOUT US*/
+    .wholeabout{
+        height: 1500px;
+    }
+    .aboutus p{
+        width: 850px;
+    }
+    .aboutus >.ph{
+        width: 850px;
+    }
+    .chordimg{
+        width: 850px;       
+        padding-right: 200px;
+    }
+    .aboutimg{
+        margin: 40px;
+        padding: 40px;
+    }
+    /*HOME*/
+    .content{
+        height: 630px;    
+    }
+    .officials{
+        width: 1280px;
+        height: 1000px;
+    }
+    .nof{
+        width: 426px;
+    }
+    .bannerswipe{
+        height: 900px;
+    }
+    .iframe{
+        width: 1280px;
+    }
+    .map2{
+        width: 1000px;
+    }
+}
