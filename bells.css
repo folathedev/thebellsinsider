@@ -5,6 +5,7 @@ body .home{
     width: auto;
 }
 .container{
+    width: 1200px;
     margin: auto;
     padding: 0px;
 }
