@@ -682,9 +682,6 @@ body .colmans{
 /*MOBILE DEVICE*/
 @media (min-width: 351px) and (max-width: 480px)
 {
-    .home{
-        width: 480px;
-    }
     .container{
         width: 480px;
     }
