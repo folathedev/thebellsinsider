@@ -773,6 +773,10 @@ body .colmans{
     .nof{
         width: 300px;
     }
+    /*APPOINT FORM*/
+    .apcontainer{
+        width: 300px;
+    }
 }
 
 /*MOBILE DEVICE*/
@@ -931,6 +935,10 @@ body .colmans{
         width: 480px;
     }
     .map2{
+        width: 480px;
+    }
+    /*APPOINT FORM*/
+    .apcontainer{
         width: 480px;
     }
 }
@@ -1093,6 +1101,11 @@ body .colmans{
     }
     .map2{
         width: 570px;
+    }
+
+    /*APPOINT FORM*/
+    .apcontainer{
+        width: 578px;
     }
 }
 
@@ -1262,6 +1275,11 @@ body .colmans{
     }
     .map2{
         width: 750px;
+    }
+
+    /*APPOINT FORM*/
+    .apcontainer{
+        width: 800px;
     }
 }
 
@@ -1626,4 +1644,5 @@ body .colmans{
     .map2{
         width: 1000px;
     }
+    
 }
