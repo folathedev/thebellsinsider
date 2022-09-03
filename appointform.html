@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bells.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="navbar1">
+                <div class="logo">
+                  <img src="bellsdp.png" alt=" bells logo" width="70px" height="70px">
+                </div>
+
+                <div class="logotext">      
+                <h1><a href="index.html">BELLS UNIVERSITY OF TECHNOLOGY</a></h1>
+                ...only the best is good for bells
+                </div>
+            
+
+                  <div class="contactlogo">
+                     <img src="emaillogo.jpg" alt="email" width="20px" height="20px">
+                     <a href="mailto:info@bellsuniversity.edu.ng">info@bellsuniversity.edu.ng</a>
+                     <img src="phonelogo.jpg" alt="phonelogo" width="20px" height="20px">
+                     <a href="tel:+2348139327665">+2348139327665</a>
+                   </div>
+            </div>
+             
+          <div class="navbar">
+               <ul class="firstul">
+                  <li><a href="about.html">ABOUT US</a></li>
+                  <li><a href="#">COLLEGES</a>
+                 <ul class="drop">
+                     <li id="mans"><a href="colmans.html">COLLEGE OF MANAGEMENT SCIENCES</a></li>
+                     <li id="eng"><a href="coleng.html">COLLEGE OF ENGINEERING</a></li>
+                     <li id="envs"><a href="colenvs.html">COLLEGE OF ENVIRONMENTAL SCIENCES</a></li>
+                     <li id="nas"><a href="colnas.html">COLLEGE OF NATURAL AND APPLIED SCIENCES</a></li>
+                 </ul>
+                 </li>
+                  <li><a href="whybells.html">WHY BELLS?</a></li>
+                 <li><a href="news.html">NEWS</a></li>
+                 <li><a href="campust.html">CAMPUS TOUR</a></li>
+             </ul>
+            </div>
+        </div>
+            
+            <div>
+                <h1 class="colmansheader">
+                    SCHEDULE AN APPOINTMENT
+                </h1>
+            </div>
+
+            <div class="apcontainer">
+                <table>
+                    <form method="post" onsubmit="return validateform()" id="form">
+                        <tr>
+                            <td class="apd">Name</td>
+                        </tr>
+            
+                        <tr>
+                            <td><input  type="text" id="fname" name="fname" placeholder="first name"></td>
+                            <td><input type="text" id="lname" name="lname" placeholder="last name"></td>
+                        </tr>
+            
+                        <tr>
+                            <td class="apd">Email address</td>
+                        </tr>
+            
+                        <tr>
+                            <td><input type="email" id="emailbox" name="emailbox" required></td>
+                        </tr>
+            
+                        <tr>
+                            <td class="apd">Phone-Number</td>
+                        </tr>
+            
+                        <tr>
+                            <td><input type="tel" id="telbox" name="emailbox"></td>
+                        </tr>
+            
+                        <tr>
+                            <td class="apd">Date</td>
+                            <td class="apd">Time</td>
+                        </tr>
+            
+                        <tr>
+                            <td><input type="date" id="datebox" name="datebox"></td>
+                            <td><input type="time" id="timebox" name="timebox"></td>
+                        </tr>
+            
+                        <tr>
+                            <td class="apd">Confimation Request</td>
+                        </tr>
+            
+                        <tr>
+                            <td id="crem"><input type="radio" value="email" name="crequest"  required>Email</td>    
+                            <td id="crem"><input type="radio" value="phone number" name="crequest"  required>Phone-Number</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="apd">First Time Visit?</td>
+                        </tr>
+            
+                        <tr id="ftv">
+                            <td><input type="radio" value="Yes" name="ftv" required>Yes</td>
+                            <td><input type="radio" value="No" name="ftv" required>No</td>
+                        </tr>
+                        
+                        <tr>
+                            <td class="apd">Appointment with:</td>
+                        </tr>
+            
+                        <tr>
+                            <td>
+                                <select id="sel" required>
+                                    <option>Dean</option>
+                                    <option>Head of Department</option>
+                                    <option>Course Advisor</option>
+                                </select>
+                            </td>
+                        </tr>
+        
+                        <tr>
+                            <td>OR</td>
+                        </tr>
+            
+                        <tr>
+                            <td class="apd">Appointment with Department staff</td>
+                        </tr>
+            
+                        <tr>
+                            <td><input type="text" id="pstaff" name="pstaff" placeholder="Staff Name"></td>
+                        </tr>
+            
+                        <tr>
+                            <td class="apd">Reason for appointment</td>
+                        </tr>
+            
+                        <tr>
+                            <td><input type="text" id="reason" name="reason" placeholder="optional"></td>
+                        </tr>
+            
+                        <tr>
+                            <td><input type="submit" id="submitap" name="submit"></td>
+                        </tr>
+                    </form>
+                </table>
+
+                <div class="main-footer">
+                    <div class="footer-box">
+                        <h3>QUICK LINKS</h3>
+                        <ul>
+                            <li><a href="https://portal.bellsuniversity.edu.ng/topup/">Special D.E Registration Portal</a></li>
+                            <li><a href="https://portal.bellsuniversity.edu.ng/">Undergraduate Registration Portal</a></li>
+                            <li><a href="https://www.bellsuniversity.edu.ng/admissions/schools-fees/#1630083299350-34201958-7dbf">Fees Structure</a></li>
+                            <li><a href="https://portal.bellsuniversity.edu.ng/verify/">Certificate Verification</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-box">
+                        <h3>DOWNLOADS</h3>
+                        <ul>
+                           <li><a href="https://www.bellsuniversity.edu.ng/fees/#1581085361590-c6b84d2a-18c5">Special Direct Entry Fee Schedule</a></li> 
+                           <li><a href="https://www.bellsuniversity.edu.ng/wp-content/uploads/2022/03/Academic-calendar-2022-Final7256.pdf">Academic Calendar</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-box">
+                        <h3>GET IN TOUCH</h3>
+                        <p>
+                            Km. 8 Idiroko Rd, Benja village 112104, Ota.
+                        </p>
+                        <p>
+                            Em: <a href="info@bellsuniversity.edu.ng">info@bellsuniversity.edu.ng</a>
+                        </p>
+                         
+                        <p>Ph: <a href="tel:08139327665">08139327665</a></p>  
+                    </div>
+        
+                    <div class="footer-box">
+                        <h3>FOLLOW US ON SOCIAL MEDIA</h3>
+                        <p>
+                         <a href="https://www.facebook.com/bellstechota"> <img src="Facebook 2x.jpg"></a>
+                         <a href="https://www.instagram.com/officialbellstech"><img src="iglogo.jpg" width="64" height=></a>
+                        </p> 
+                    </div>
+                </div>
+
+    </div>
+
+    
+    <script src="bells.js"></script>
+    </div>
+</body>
+</html>

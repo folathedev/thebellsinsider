@@ -1,23 +1,43 @@
-var mans=document.getElementById('mans')
+const mans=document.getElementById('mans');
 mans.onclick= function()
 {
-    alert('WELCOME TO THE COLLEGE OF OF MANAGEMENT SCIENCE')
+    alert('WELCOME TO THE COLLEGE OF OF MANAGEMENT SCIENCE');
 }
 
-var nas=document.getElementById('nas')
+const nas=document.getElementById('nas');
 nas.onclick=function()
 {
     alert('WELCOME TO THE COLLEGE OF NATURAL SCIENCES')
 }
 
-var eng=document.getElementById('eng')
+const eng=document.getElementById('eng');
 eng.onclick= function()
 {
-    alert('WELCOME TO THE COLLEGE OF ENGINEERING')
+    alert('WELCOME TO THE COLLEGE OF ENGINEERING');
 }
 
-var envs=document.getElementById('envs')
+const envs=document.getElementById('envs');
 envs.onclick=function()
 {
-    alert('WELCOME TO THE COLLEGE OF ENVIRONMENTAL SCIENCE')
+    alert('WELCOME TO THE COLLEGE OF ENVIRONMENTAL SCIENCE');
+}
+
+function validateform(){
+const fname=document.getElementById('fname').value;
+const lname=document.getElementById('lname').value;
+const telbox=document.getElementById('telbox').value;
+
+if (fname==null || fname==""){
+    alert('first name must be filled');
+    return false;
+}
+ if (lname==null || lname==""){
+    alert('Last name must be filled');
+    return false;
+ }
+
+ if (telbox.length>12){
+    alert('Confirm phone number');
+    return false;
+ }
 }

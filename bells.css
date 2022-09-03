@@ -518,6 +518,102 @@ body .colmans{
 .newslidewhole{
     width: 900px;
 }
+
+/*APPOINT FORM*/
+.apcontainer{
+    background-color: gainsboro;
+    width: 1200px;
+    margin: auto;
+}
+.apd{
+    font-size: larger;
+    font-weight: bold;
+}
+#fname{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#lname{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#emailbox{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#telbox{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#datebox{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#timebox{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#crem{
+    font-size: large;
+    margin-bottom: 15px;
+}
+#ftv{
+    font-size: large;
+}
+#sel{
+    margin-bottom: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+#pstaff{
+    margin-bottom: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+#reason{
+    margin-bottom: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+}
+#submitap{
+    margin-bottom: 15px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    background-color: orange;
+}
+/*APPOINT BUTTON*/
+.butt{
+    width: 350px;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: large;
+    background-color: black;
+}
+.butt a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
 /*MEDIA QUERY*/
 /*COLMANS*/
 @media screen and (max-width: 320px)
