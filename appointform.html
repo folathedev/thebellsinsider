@@ -55,14 +55,14 @@
 
             <div class="apcontainer">
                 <table>
-                    <form method="post" onsubmit="return validateform()" id="form">
+                    <form method="post" onsubmit="return validateform()" id="form" action="https://formspree.io/f/xwkzvvjy">
                         <tr>
                             <td class="apd">Name</td>
                         </tr>
             
                         <tr>
-                            <td><input  type="text" id="fname" name="fname" placeholder="first name"></td>
-                            <td><input type="text" id="lname" name="lname" placeholder="last name"></td>
+                            <td><input  type="text" id="fname" name="first name" placeholder="first name"></td>
+                            <td><input type="text" id="lname" name="last name" placeholder="last name"></td>
                         </tr>
             
                         <tr>
@@ -70,7 +70,7 @@
                         </tr>
             
                         <tr>
-                            <td><input type="email" id="emailbox" name="emailbox" required></td>
+                            <td><input type="email" id="emailbox" name="email address" required></td>
                         </tr>
             
                         <tr>
@@ -78,7 +78,7 @@
                         </tr>
             
                         <tr>
-                            <td><input type="tel" id="telbox" name="emailbox"></td>
+                            <td><input type="tel" id="telbox" name="Phone-Number"></td>
                         </tr>
             
                         <tr>
@@ -87,8 +87,8 @@
                         </tr>
             
                         <tr>
-                            <td><input type="date" id="datebox" name="datebox"></td>
-                            <td><input type="time" id="timebox" name="timebox"></td>
+                            <td><input type="date" id="datebox" name="date"></td>
+                            <td><input type="time" id="timebox" name="time"></td>
                         </tr>
             
                         <tr>
@@ -96,8 +96,8 @@
                         </tr>
             
                         <tr>
-                            <td id="crem"><input type="radio" value="email" name="crequest"  required>Email</td>    
-                            <td id="crem"><input type="radio" value="phone number" name="crequest"  required>Phone-Number</td>
+                            <td id="crem"><input type="radio" value="email" name="confirmation request"  required>Email</td>    
+                            <td id="crem"><input type="radio" value="phone number" name="confirmation request"  required>Phone-Number</td>
                         </tr>
             
                         <tr>
@@ -105,8 +105,8 @@
                         </tr>
             
                         <tr id="ftv">
-                            <td><input type="radio" value="Yes" name="ftv" required>Yes</td>
-                            <td><input type="radio" value="No" name="ftv" required>No</td>
+                            <td><input type="radio" value="Yes" name="first time visit" required>Yes</td>
+                            <td><input type="radio" value="No" name="first time visit" required>No</td>
                         </tr>
                         
                         <tr>
@@ -116,7 +116,6 @@
                         <tr>
                             <td>
                                 <select id="sel" required>
-                                    <option>Dean</option>
                                     <option>Head of Department</option>
                                     <option>Course Advisor</option>
                                     <option>Lecturer</option>
@@ -125,7 +124,7 @@
                         </tr>
             
                         <tr>
-                            <td><input type="text" id="pstaff" name="pstaff" placeholder="Staff Name or position"></td>
+                            <td><input type="text" id="pstaff" name="staff name" placeholder="Staff Name"></td>
                         </tr>
             
                         <tr>
@@ -133,7 +132,7 @@
                         </tr>
             
                         <tr>
-                            <td><input type="text" id="reason" name="reason" placeholder="optional"></td>
+                            <td><textarea name="message" id="reason" name="reason" placeholder="optional"></textarea></td>
                         </tr>
             
                         <tr>

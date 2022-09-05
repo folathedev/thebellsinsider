@@ -498,7 +498,8 @@ body .colmans{
 }
 .eafnbadvisors h1{
     font-family: sans-serif;
-    color: teal;
+    color: black;
+    text-decoration: underline;
 }
 .eafadvi h3, h4{
     font-family: sans-serif;
@@ -531,38 +532,48 @@ body .colmans{
 }
 #fname{
     width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 5px;
     margin-bottom: 15px;
+    font-size: large;
+    font-family: sans-serif;
+    padding: 5px;
 }
 #lname{
     width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 5px;
     margin-bottom: 15px;
+    font-size: large;
+    font-family: sans-serif;
+    padding: 5px;
 }
 #emailbox{
     width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 5px;
     margin-bottom: 15px;
+    font-size: large;
+    font-family: sans-serif;
 }
 #telbox{
     width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 5px;
     margin-bottom: 15px;
+    font-size: large;
+    font-family: sans-serif;
 }
 #datebox{
     width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 5px;
     margin-bottom: 15px;
 }
 #timebox{
     width: 150px;
-    height: 30px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 5px;
     margin-bottom: 15px;
 }
 #crem{
@@ -575,26 +586,32 @@ body .colmans{
 #sel{
     margin-bottom: 15px;
     width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: large;
+    font-family: sans-serif;
 }
 #pstaff{
     margin-bottom: 15px;
     width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: large;
+    font-family: sans-serif;
 }
 #reason{
     margin-bottom: 15px;
-    width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    width: 350px;
+    height: 150px;
+    border-radius: 5px;
+    font-size: large;
+    font-family: sans-serif;
 }
 #submitap{
     margin-bottom: 15px;
     width: 200px;
-    height: 30px;
-    border-radius: 10px;
+    height: 40px;
+    border-radius: 5px;
     align-items: center;
     justify-content: center;
     display: flex;
