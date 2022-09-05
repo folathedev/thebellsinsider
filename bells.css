@@ -243,8 +243,6 @@ body .colmans{
     font-family: sans-serif;
     justify-content: center;
     text-align: center;
-    margin: 10px;
-    padding: 10px;
 }
 .hod a{
     text-decoration: none;
@@ -830,6 +828,7 @@ body .colmans{
     }
     .hod{
         width: 480px;
+        margin: auto;
     }
     .main-footer{
         width: 480px;
