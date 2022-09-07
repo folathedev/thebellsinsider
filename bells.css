@@ -247,6 +247,10 @@ body .colmans{
     text-decoration: underline;
     background-color: white;    
 }
+.hodul{
+    border: 3px solid orange;
+    box-shadow: 2px 2px 12px;color: black;
+}
 /*COLNAS*/
 .nasmeg{
     font-family: sans-serif;
@@ -838,6 +842,12 @@ body .colmans{
     .lenghod{
         display: inline;
     }
+    .leng{
+        width: 480px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
 
     /*DEPARTMENTS*/
     .eafnbadvisors{
@@ -1004,6 +1014,9 @@ body .colmans{
     }
     .leng{
         width: 578px;
+        justify-content: center;
+        align-items: center;
+          display: flex;
     }
 
 
