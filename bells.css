@@ -295,6 +295,7 @@ body .colmans{
     font-family: sans-serif;
     justify-content: center;
     text-align: center;
+    margin: auto;
 }
 .leng a{
     text-decoration: none;
@@ -816,7 +817,7 @@ body .colmans{
         display: none;
     }
     .section2{
-        height: 750px;
+        height: 600px;
     }
     .mainhod{
         width: 480px;
