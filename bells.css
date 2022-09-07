@@ -970,6 +970,9 @@ body .colmans{
         width: 480px;
         margin: auto;
     }
+    .pageimg{
+        width: 480px;
+    }
 }
 
 @media (min-width: 485px) and (max-width: 578px)
