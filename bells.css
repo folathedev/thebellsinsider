@@ -910,11 +910,11 @@ body .colmans{
     }
     .newpara{
         width: 200px;
-        float: right;
+        float: left;
         margin-top: 20px;   
     }
     .newsimg{
-        height: 5250px;
+        height: 4500px;
     }
     .newsimg h3{
         margin-top: 0px;
