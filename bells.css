@@ -424,15 +424,15 @@ body .colmans{
     padding: 0px;
 }
 /*NEWS*/
-.insidecontent a{
+.newpara a{
     text-decoration: none;
-    background: black;
-    margin: 10px;
-    padding: 10px;
-    color: white;
+    color: black;
+
 }
 .newlain{
     width: 850px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .insidecontent a:hover{
     text-decoration: underline;
@@ -908,13 +908,13 @@ body .colmans{
         width: 250px;
         margin-top: 20px;
     }
-    .newpara{
+    .newpara a{
         width: 200px;
-        float: left;
-        margin-top: 20px;   
+        float: right;
+        margin-top: 20px;
     }
     .newsimg{
-        height: 4500px;
+        height: 3500px;
     }
     .newsimg h3{
         margin-top: 0px;
@@ -922,6 +922,13 @@ body .colmans{
     }
     .newsimg h2{
         margin-bottom: 0px;
+    }
+    /*NEWS PAGE*/
+    .wholenewscont{
+        width: 480px;
+    }
+    .newscont{
+        width: 480px;
     }
 
     /*ABOUT US*/
@@ -1077,13 +1084,16 @@ body .colmans{
         width: 578px;
     }
     .newlain{
-        width: 578px;
+        width: 350px;
+        margin-top: 20px;
     }
-    .newpara{
-        width: 578px;   
+    .newpara a{
+        width: 190px;
+        float: right;
+        margin-top: 20px;   
     }
     .newsimg{
-        height: 4850px;
+        height: 4000px;
     }
     .newsimg h3{
         margin-top: 0px;
@@ -1091,6 +1101,12 @@ body .colmans{
     }
     .newsimg h2{
         margin-bottom: 0px;
+    }
+    .wholenewscont{
+        width: 578px;
+    }
+    .newscont{
+        width: 578px;
     }
 
     /*ABOUT US*/
@@ -1266,6 +1282,13 @@ body .colmans{
     }
     .newsimg h2{
         margin-bottom: 0px;
+    }
+    /*NEWS PAGE*/
+    .wholenewscont{
+        width: 800px;
+    }
+    .newscont{
+        width: 800px;
     }
 
     /*ABOUT US*/
