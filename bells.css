@@ -906,11 +906,12 @@ body .colmans{
     }
     .newlain{
         width: 250px;
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .newpara a{
         width: 220px;
         float: right;
+        margin-top: 0px;
     }
     .newsimg{
         height: 3000px;
@@ -928,6 +929,13 @@ body .colmans{
     }
     .newscont{
         width: 480px;
+    }
+    .newscont img{
+        width: 480px;
+    }
+    .newslidewhole{
+        width: 480px;
+        height: 500px;
     }
 
     /*ABOUT US*/
@@ -1109,6 +1117,13 @@ body .colmans{
     }
     .newscont{
         width: 578px;
+    }
+    .newscont img{
+        width: 578px;
+    }
+    .newslidewhole{
+        width: 578px;
+        height: 500px;
     }
 
     /*ABOUT US*/
