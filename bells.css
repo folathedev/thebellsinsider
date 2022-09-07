@@ -847,6 +847,7 @@ body .colmans{
         justify-content: center;
         align-items: center;
         display: flex;
+        margin: auto;
     }
 
     /*DEPARTMENTS*/
