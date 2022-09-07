@@ -844,10 +844,6 @@ body .colmans{
     }
     .leng{
         width: 480px;
-        justify-content: center;
-        align-items: center;
-        display: flex;
-        margin: auto;
     }
 
     /*DEPARTMENTS*/
@@ -1015,9 +1011,6 @@ body .colmans{
     }
     .leng{
         width: 578px;
-        justify-content: center;
-        align-items: center;
-          display: flex;
     }
 
 
