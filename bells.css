@@ -1004,14 +1004,14 @@ body .colmans{
     }
     .Copyright{
         width: 480px;
-        height: 200px;
+        height: 150px;
     }
     .cright{
         padding-left: 50px;
     }
     .cred{
 
-        padding: 50px;
+        padding-left: 50px;
         font-size: large;
     }
 }
@@ -1048,6 +1048,7 @@ body .colmans{
     }
     .main-footer{
         width: 578px;
+        height: 1200px;
     }
     .footer-box{
         width: 578px;
@@ -1123,20 +1124,20 @@ body .colmans{
         width: 578px;
     }
     /*NEWS*/
-    .insidecontent{
-        width: 578px;
-    }
     .newlain{
-        width: 350px;
-        margin-top: 20px;
+        width: 300px;
+        margin-top: 0px;
     }
     .newpara a{
-        width: 190px;
+        width: 250px;
         float: right;
-        margin-top: 20px;   
+        margin-top: -150px;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: black;
     }
     .newsimg{
-        height: 4000px;
+        height: 3200px;
     }
     .newsimg h3{
         margin-top: 0px;
@@ -1145,6 +1146,7 @@ body .colmans{
     .newsimg h2{
         margin-bottom: 0px;
     }
+    /*NEWS PAGE*/
     .wholenewscont{
         width: 578px;
     }
@@ -1158,7 +1160,6 @@ body .colmans{
         width: 578px;
         height: 500px;
     }
-
     /*ABOUT US*/
     .aboutus p{
         width: 578px;
@@ -1197,6 +1198,18 @@ body .colmans{
         width: 578px;
         margin: auto;
     }
+    /*Copyright*/
+    .Copyright{
+        width: 578px;
+        height: 100px;
+    }
+    .cright{
+        padding-left: 50px;
+    }
+    .cred{
+
+        padding-left: 50px;
+    }
 }
 
 @media (min-width: 580px) and (max-width: 800px)
@@ -1231,6 +1244,7 @@ body .colmans{
     }
     .main-footer{
         width: 800px;
+        height: 1200px;
     }
     .footer-box{
         width: 800px;
@@ -1309,22 +1323,20 @@ body .colmans{
         float: left;
     }
     /*NEWS*/
-    .insidecontent{
-        width: 800px;
-    }
     .newlain{
-        width: 800px;
+        width: 400px;
+        margin-top: 0px;
     }
-    .newpara{
-        width: 800px;   
+    .newpara a{
+        width: 380px;
+        float: right;
+        margin-top: -200px;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: black;
     }
     .newsimg{
-        height: 4850px;
-        width: 800px;
-    }
-    .newsimgrole{
-        width: 400px;
-        float: left;
+        height: 3200px;
     }
     .newsimg h3{
         margin-top: 0px;
@@ -1339,6 +1351,13 @@ body .colmans{
     }
     .newscont{
         width: 800px;
+    }
+    .newscont img{
+        width: 800px;
+    }
+    .newslidewhole{
+        width: 800px;
+        height: 500px;
     }
 
     /*ABOUT US*/
@@ -1379,6 +1398,20 @@ body .colmans{
         width: 800px;
         margin: auto;
     }
+    /*Copyright*/
+    .Copyright{
+        width: 800px;
+        height: 100px;
+    }
+    .cright{
+        padding-left: 50px;
+        font-size: larger;
+    }
+    .cred{
+
+        padding-left: 50px;
+        font-size: larger;
+    }
 }
 
 @media (min-width: 801px) and (max-width: 1024px)
@@ -1413,6 +1446,7 @@ body .colmans{
     }
     .main-footer{
         width: 1024px;
+        height: 600px;
     }
     .footer-box{
         width: 512px;
@@ -1494,21 +1528,23 @@ body .colmans{
         float: left;
     }
     /*NEWS*/
-    .insidecontent{
-        width: 1024px;
-    }
     .newlain{
-        width: 1024px;
+        width: 500px;
+        margin-top: 0px;
     }
-    .newpara{
-        width: 1024px;   
+    .newpara a{
+        width: 500px;
+        float: right;
+        margin-top: -600px;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: black;
     }
     .newsimg{
-        height: 4850px;
-        width: 1024px;
+        height: 1650px;
     }
     .newsimgrole{
-        width: 512px;
+        width: 500px;
         float: left;
     }
     .newsimg h3{
@@ -1518,7 +1554,20 @@ body .colmans{
     .newsimg h2{
         margin-bottom: 0px;
     }
-
+    /*NEWS PAGE*/
+    .wholenewscont{
+        width: 1024px;
+    }
+    .newscont{
+        width: 1024px;
+    }
+    .newscont img{
+        width: 1024px;
+    }
+    .newslidewhole{
+        width: 1024px;
+        height: 500px;
+    }
     /*ABOUT US*/
     .aboutus p{
         width: 1024px;
@@ -1550,6 +1599,20 @@ body .colmans{
     }
     .map2{
         width: 950px;
+    }
+    /*Copyright*/
+    .Copyright{
+        width: 1024px;
+        height: 200px;
+    }
+    .cright{
+        padding-left: 50px;
+        font-size: larger;
+    }
+    .cred{
+
+        padding-left: 50px;
+        font-size: larger;
     }
 }
 
