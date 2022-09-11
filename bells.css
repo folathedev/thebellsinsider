@@ -847,7 +847,8 @@ body .colmans{
         width: 480px;
     }
     .main-footer{
-        width: 480px;       
+        width: 480px;
+        height: 1200px;       
     }
     .footer-box{
         width: 480px;
@@ -1000,22 +1001,15 @@ body .colmans{
     }
     .Copyright{
         width: 480px;
-        background-color: darkcyan;
-        height: 100px;
+        height: 200px;
     }
     .cright{
-        margin-bottom: 20px;
-        color: white;
-        padding-left: 380px;
-        font-family: sans-serif;
-        font-weight: bolder;
+        padding-left: 50px;
     }
     .cred{
-        color: white;
-        padding-left: 350px;
-        margin-top: 10px;
-        font-family: sans-serif;
-        font-weight: bolder;
+
+        padding: 50px;
+        font-size: large;
     }
 }
 
