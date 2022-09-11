@@ -813,9 +813,6 @@ body .colmans{
         width: 300px;
         margin: auto;
     }
-    .Copyright{
-        width: 300px;
-    }
 }
 
 /*MOBILE DEVICE*/
@@ -850,7 +847,7 @@ body .colmans{
         width: 480px;
     }
     .main-footer{
-        width: 480px;
+        width: 480px;       
     }
     .footer-box{
         width: 480px;
@@ -1003,6 +1000,22 @@ body .colmans{
     }
     .Copyright{
         width: 480px;
+        background-color: darkcyan;
+        height: 100px;
+    }
+    .cright{
+        margin-bottom: 20px;
+        color: white;
+        padding-left: 380px;
+        font-family: sans-serif;
+        font-weight: bolder;
+    }
+    .cred{
+        color: white;
+        padding-left: 350px;
+        margin-top: 10px;
+        font-family: sans-serif;
+        font-weight: bolder;
     }
 }
 
@@ -1186,9 +1199,6 @@ body .colmans{
     .apcontainer{
         width: 578px;
         margin: auto;
-    }
-    .Copyright{
-        width: 578px;
     }
 }
 
