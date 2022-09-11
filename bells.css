@@ -929,10 +929,13 @@ body .colmans{
     .newpara a{
         width: 220px;
         float: right;
-        margin-top: 0px;
+        margin-top: -150px;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: black;
     }
     .newsimg{
-        height: 3000px;
+        height: 3200px;
     }
     .newsimg h3{
         margin-top: 0px;
